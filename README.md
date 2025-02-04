@@ -14,7 +14,7 @@ How to use the software:
 
 **Note:** The path inside the square brackets must be replaced with the actual path where the `lib` folder of the **javafx-sdk** is located. This folder is included in the project, e.g.:
    ```
-   /University/Algorithms_and_Data_Structures/Project/Project_Cofone_Sabatini/Kruskal-mst/javafx-sdk-21.0.5/lib
+   /University/Algorithms_and_Data_Structures/Project//Kruskal-mst/javafx-sdk-21.0.5/lib
    ```
 
 ---
@@ -38,11 +38,11 @@ How to use the software:
 
 ---
 
-### [COMPILATION AND RUN COMMANDS]
+### [COMPILATION AND RUN COMMANDS FOR LINUX]
 ```sh
-javac --module-path /home/alessandro/University/Algorithms_and_Data_Structures/Project/Project_Cofone_Sabatini/Kruskal-mst/javafx-sdk-21.0.5/lib --add-modules javafx.controls,javafx.fxml -d out $(find src -name "*.java")
+javac --module-path /home/alessandro/University/Algorithms_and_Data_Structures/Project/Kruskal-mst/javafx-sdk-21.0.5/lib --add-modules javafx.controls,javafx.fxml -d out $(find src -name "*.java")
 ```
 ```sh
-java --module-path /home/alessandro/University/Algorithms_and_Data_Structures/Project/Project_Cofone_Sabatini/Kruskal-mst/javafx-sdk-21.0.5/lib --add-modules javafx.controls,javafx.fxml -cp out App
+java --module-path /home/alessandro/University/Algorithms_and_Data_Structures/Project/Kruskal-mst/javafx-sdk-21.0.5/lib --add-modules javafx.controls,javafx.fxml -cp out App
 ```
 
