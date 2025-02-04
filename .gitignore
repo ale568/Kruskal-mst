@@ -1,0 +1,14 @@
+# Escludi JavaFX SDK (che contiene file troppo grandi)
+javafx-sdk-21.0.5/
+
+# Escludi cartelle di output e build
+bin/
+out/
+target/
+
+# Escludi i file specifici di IntelliJ IDEA, Eclipse o VS Code
+*.iml
+.idea/
+.vscode/
+*.class
+
